@@ -448,3 +448,10 @@ ol li + li {
     font-size: 2rem;
   }
 }
+
+.featured-project {
+  border-color: rgba(78, 225, 193, 0.45);
+  background:
+    radial-gradient(circle at top right, rgba(78, 225, 193, 0.12), transparent 35%),
+    var(--panel);
+}
